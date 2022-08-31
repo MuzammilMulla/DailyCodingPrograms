@@ -1,6 +1,6 @@
 public class CheckPalindromeRecursion {
     public static void main(String[] args) {
-        String str = "-22-";
+        String str = "booboob";
         System.out.println(isPalindrome(str,0,str.length()-1));
     }
     
@@ -10,8 +10,6 @@ public class CheckPalindromeRecursion {
         if(i > j || i==j){
             return true;
         }
-
-
         if(str.charAt(i) != str.charAt(j)){
             return false;
         }
