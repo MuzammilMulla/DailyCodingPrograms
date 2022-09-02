@@ -13,8 +13,4 @@ public class SumOfDigitUsingRecursion {
     return sumOfDigitUsingRecursion(n/10, ans+(n%10));
 
     }
-
-
-
-
 }
