@@ -6,7 +6,6 @@ public class LengthOfStringRecursion {
     }
     static int lengthOfStringRecursion(String str, int i, int count){
         if(str.length() ==0){
-           // System.out.println("0");
             return 0;
         }
         if(i == str.length()){
