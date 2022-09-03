@@ -1,3 +1,10 @@
+//Input : "abc"
+//output :cba
+//        bca
+//        bac
+//        cab
+//        acb
+//        abc
 public class PermutationsOfString {
     public static void main(String[] args) {
     permutations("","abc");
