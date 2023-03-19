@@ -1,6 +1,6 @@
 package OutsideCodes;
 
-public class ProperDivisor {
+public class PerfectNumber {
     public static void main(String[] args) {
 
         int num=496;
